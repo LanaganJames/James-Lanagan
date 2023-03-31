@@ -33,9 +33,10 @@ body{
 h1{
     font-size: 500%;
     width: 60%;
+    height: 2%;
 }
 .profile{
-    width: 40%;
+    width: 30%;
 }
 h2{
     font-size: 300%;
