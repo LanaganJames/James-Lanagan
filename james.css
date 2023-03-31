@@ -9,7 +9,6 @@ body{
 	background-size: 500% 250%;
 	animation: gradient 12s ease infinite;
 	height: 100%;
-    width: auto;
 }
 
 @keyframes gradient {
@@ -36,7 +35,7 @@ h1{
     height: 2%;
 }
 .profile{
-    width: 30%;
+    width: 40%;
 }
 h2{
     font-size: 300%;
@@ -51,20 +50,25 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-right: 12%;
     padding-bottom: 3%;
 }
 .github{
+    height: 40px;
+    width: 345px;
     background-color: orangered;
-    width: 250%;
-    height: 150%;
-    font-size: xx-large;
+    color: black;
+    font-size: 30px;
+    border-width: 1px; 
+    cursor: pointer;
 }
 .linkedin{
-    background-color:rgb(32, 76, 189);
-    width: 250%;
-    height: 150%;
-    font-size: xx-large;
+    height: 40px;
+    width: 345px;
+    background-color: rgb(32, 76, 189);
+    color: black;
+    font-size: 30px;
+    border-width: 1px; 
+    cursor: pointer;
 }
 h3{
     display: flex;
