@@ -6,7 +6,7 @@ body{
     padding-left: 5%;
     padding-right: 5%;
 	background: linear-gradient(45deg, #844646, #56477ed4, #5fb185, #8a933f);
-	background-size: 500% 250%;
+	background-size: 500% 400%;
 	animation: gradient 12s ease infinite;
 	height: 100%;
 }
