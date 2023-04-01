@@ -22,8 +22,6 @@ body{
 	}
 }
 
-
-
 .top{
     display: flex;
     flex-direction: row;
@@ -50,7 +48,8 @@ h1{
     height: 100%;
 }
 .profile{
-    width: 40%;
+    width: 450px;
+    height: 600px;
 }
 h2{
     font-size: 300%;
@@ -59,7 +58,6 @@ h2{
 .about{
     font-size: larger;
     margin-top: 0%;
-
 }
 .social{
     display: flex;
@@ -145,3 +143,18 @@ textarea{
     background-color: aquamarine;
     color: black;
 }
+  
+  @media (max-width: 50rem) {
+    .profile{
+        width: 315px;
+        height: 420px;
+    }
+    .about{
+        font-size: larger;
+        margin-top: 0%;
+        width: 190%;
+    }
+    .but{
+        width: 100px;
+    }
+  }
