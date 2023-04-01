@@ -33,13 +33,15 @@ body{
     flex-direction: column-reverse;
 }
 .but{
-    height: 20px;
-    width: 100px;
-    background-color: black;
-    color: white;
-    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
     border-width: 1px; 
     cursor: pointer;
+    border-width: 5px;
 }
 h1{
     font-size: 500%;
@@ -114,7 +116,7 @@ img{
 
 h5{
     font-size: 300%;
-    width: 50%;
+    width: 80%;
     -webkit-text-stroke: 2px black;
     color: transparent;
 }
@@ -122,12 +124,12 @@ h5{
 form{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     font-size: x-large;
 }
 input{
     font-size: x-large;
-    width: 70%;
+    width: 45%;
     margin-bottom: 1%;
     background-color: aquamarine;
 }
