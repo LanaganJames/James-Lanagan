@@ -40,6 +40,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     border-width: 1px; 
+    border-color: black;
     cursor: pointer;
     border-width: 5px;
 }
@@ -142,4 +143,5 @@ textarea{
     margin-top:  1%;
     margin-bottom: 3%;
     background-color: aquamarine;
+    color: black;
 }
