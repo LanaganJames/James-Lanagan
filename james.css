@@ -31,8 +31,8 @@ body{
     flex-direction: column-reverse;
 }
 .but{
-    height: 35px;
-    width: 150px;
+    height: 35px;    
+    width: 100px;
     background-color: transparent;
     color: black;
     font-size: 20px;
@@ -48,8 +48,8 @@ h1{
     height: 100%;
 }
 .profile{
-    width: 450px;
-    height: 600px;
+    width: 315px;
+    height: 420px;
 }
 h2{
     font-size: 300%;
@@ -58,6 +58,7 @@ h2{
 .about{
     font-size: larger;
     margin-top: 0%;
+    width: 190%;
 }
 .social{
     display: flex;
@@ -98,7 +99,7 @@ h3{
 h4{
     display: flex;
     justify-content: center;
-    font-size: 150%;
+    font-size: 110%;
 }
 .new{
     padding-left: 5.5%;
@@ -145,20 +146,18 @@ textarea{
     color: black;
 }
   
-@media only screen and (max-width: 50rem){
+@media only screen and (min-width: 50rem){
     .profile{
-        width: 315px;
-        height: 420px;
+    width: 450px;
+    height: 600px;
     }
     .about{
-        font-size: larger;
-        margin-top: 0%;
-        width: 190%;
+    width: 100%;
     }
-    .but{
-        width: 100px;
+    .but{        
+    width: 150px;
     }
     h4{
-        font-size: 110%;
+    font-size: 150%;
     }
   }
