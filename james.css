@@ -102,6 +102,7 @@ h4{
 }
 .new{
     padding-left: 5.5%;
+    padding-right: 5.5%;
 }
 .img{
     display: flex;
@@ -156,5 +157,8 @@ textarea{
     }
     .but{
         width: 100px;
+    }
+    h4{
+        font-size: 110%;
     }
   }
