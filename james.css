@@ -142,7 +142,6 @@ form{
 }
 input{
     font-size: x-large;
-    width: 100%;
     margin-bottom: 1%;
     background-color: aquamarine;
 }
@@ -179,6 +178,6 @@ textarea{
         width: 50%
     }
     textarea{
-        width: 50%;
+        width: 42rem;
     }
 }
