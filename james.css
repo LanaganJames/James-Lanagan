@@ -145,7 +145,7 @@ textarea{
     color: black;
 }
   
-  @media (max-width: 50rem) {
+@media only screen and (max-width: 50rem){
     .profile{
         width: 315px;
         height: 420px;
