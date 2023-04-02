@@ -30,6 +30,9 @@ body{
     display: flex;
     flex-direction: column-reverse;
 }
+.buttons{
+    width: 350px;
+}
 .but{
     height: 35px;    
     width: 30%;
@@ -168,6 +171,9 @@ textarea{
     }
     .about{
         width: 100%;
+    }
+    .buttons{
+        width: 500px;
     }
     .but{        
         width: 150px;
