@@ -139,6 +139,7 @@ form{
 .s{
     display: flex;
     flex-direction: column;
+    width: 45%;
 }
 input{
     font-size: x-large;
@@ -174,10 +175,13 @@ textarea{
     h4{
         font-size: 150%;
     }
+    form{
+        width: 42rem;
+    }
     .sh{
-        width: 50%
+        width: 100%
     }
     textarea{
-        width: 42rem;
+        width: 100%;
     }
 }
