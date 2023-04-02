@@ -142,7 +142,7 @@ form{
 }
 input{
     font-size: x-large;
-    width: 300px;
+    width: 100%;
     margin-bottom: 1%;
     background-color: aquamarine;
 }
