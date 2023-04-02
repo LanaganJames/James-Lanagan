@@ -124,18 +124,32 @@ h5{
 form{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     font-size: x-large;
+}
+.short{
+    display: flex;
+    flex-direction: column;
+}
+.sh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.s{
+    display: flex;
+    flex-direction: column;
 }
 input{
     font-size: x-large;
-    width: 45%;
+    width: 300px;
     margin-bottom: 1%;
     background-color: aquamarine;
 }
 textarea{
     font-size: x-large;
     background-color:aquamarine;
+    width: ;
 }
 .submit{
     width: 20%;
