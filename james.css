@@ -43,6 +43,8 @@ body{
     border-width: 5px;
     border-color: black;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 h1{
     font-size: 500%;
@@ -158,6 +160,8 @@ textarea{
     background-color: aquamarine;
     color: black;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
 @media (orientation: landscape) and (min-width: 50rem){
