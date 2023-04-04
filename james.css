@@ -130,20 +130,16 @@ form{
     width: 100%;
     font-size: x-large;
 }
-.short{
-    display: flex;
-    flex-direction: column;
-}
-.sh{
+.oneone{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.s{
+.one{
     display: flex;
     flex-direction: column;
-    width: 45%;
 }
+
 input{
     font-size: x-large;
     margin-bottom: 1%;
@@ -183,9 +179,6 @@ textarea{
     }
     form{
         width: 42rem;
-    }
-    .sh{
-        width: 100%
     }
     textarea{
         width: 100%;
