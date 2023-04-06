@@ -2,13 +2,12 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(152, 152, 152);
     padding-left: 5%;
     padding-right: 5%;
-	background: linear-gradient(45deg, #844646, #56477ed4, #5fb185, #8a933f);
-	background-size: 500% 400%;
-	animation: gradient 12s ease infinite;
-	height: 100%;
-}
+}  
+
+
 
 @keyframes gradient {
 	0% {
@@ -34,17 +33,18 @@ body{
     width: 350px;
 }
 .but{
-    height: 35px;    
-    width: 30%;
-    background-color: transparent;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    border-width: 5px;
-    border-color: black;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
+height: 35px;    
+width: 30%;
+background-color: transparent;
+color: black;
+font-size: 20px;
+font-weight: bold;
+border-width: 5px;
+border-color: black;
+background: linear-gradient(45deg, #844646, #56477ed4, #5fb185, #8a933f,  #5fb185, #56477ed4, #844646);
+background-size: 1000% 100%;
+animation: gradient 10s ease infinite;
+cursor: pointer;
 }
 h1{
     font-size: 500%;
@@ -74,7 +74,9 @@ h2{
 .github{
     height: 40px;
     width: 345px;
-    background-color: orangered;
+    background: linear-gradient(45deg, #ff9d00, #c38500d4, #7c6e01, #5c4b01);
+    background-size: 1000% 100%;
+    animation: gradient 10s ease infinite;
     color: black;
     font-size: 30px;
     border-width: 1px; 
@@ -83,7 +85,9 @@ h2{
 .linkedin{
     height: 40px;
     width: 345px;
-    background-color: rgb(32, 76, 189);
+    background: linear-gradient(45deg, #01225c, #01327c, #0065c3d4, #007bff);
+    background-size: 1000% 100%;
+    animation: gradient 10s ease infinite;
     color: black;
     font-size: 30px;
     border-width: 1px; 
@@ -145,11 +149,11 @@ form{
 input{
     font-size: x-large;
     margin-bottom: 1%;
-    background-color: aquamarine;
+    background-color: rgb(250, 175, 175);
 }
 textarea{
     font-size: x-large;
-    background-color:aquamarine;
+    background-color: rgb(250, 175, 175);
 }
 .submit{
     width: 20%;
@@ -157,7 +161,7 @@ textarea{
     font-size: 2rem;
     margin-top:  1%;
     margin-bottom: 3%;
-    background-color: aquamarine;
+    background-color: rgb(250, 175, 175);
     color: black;
     cursor: pointer;
     display: flex;
