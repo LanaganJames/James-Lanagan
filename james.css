@@ -1,10 +1,12 @@
 body{
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(152, 152, 152);
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 90%;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
 }  
 
 
@@ -23,6 +25,8 @@ body{
 
 .top{
     display: flex;
+    width: 100%;
+    position: relative;
     flex-direction: row;
 }
 .a{
@@ -30,8 +34,7 @@ body{
     flex-direction: column-reverse;
 }
 .buttons{
-    width: 450px;
-    
+    width: 100%;
 }
 .but{
 height: 35px;    
@@ -53,8 +56,8 @@ h1{
     height: 100%;
 }
 .profile{
-    width: 315px;
-    height: 420px;
+    width: 35%;
+    height: 35%;
 }
 h2{
     font-size: 300%;
@@ -63,7 +66,7 @@ h2{
 .about{
     font-size: larger;
     margin-top: 0%;
-    width: 170%;
+    width: 155%;
 }
 .social{
     display: flex;
@@ -171,17 +174,17 @@ textarea{
 
 @media (orientation: landscape) and (min-width: 50rem){
     .profile{
-        width: 450px;
-        height: 600px;
+        width: 40%;
+        height: 40%;
     }
     .about{
         width: 100%;
     }
     .buttons{
-        width: 500px;
+        width: 100%;
     }
     .but{        
-        width: 150px;
+        width: 170px;
     }
     h4{
         font-size: 150%;
