@@ -30,7 +30,8 @@ body{
     flex-direction: column-reverse;
 }
 .buttons{
-    width: 350px;
+    width: 450px;
+    
 }
 .but{
 height: 35px;    
