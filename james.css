@@ -2,14 +2,12 @@ body{
     display: inline-block;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(152, 152, 152);
+    background-color: rgb(152,152,152);
     width: 90%;
     padding-left: 4%;
     padding-right: 4%;
     position: relative;
-}  
-
-
+} 
 
 @keyframes gradient {
 	0% {
@@ -37,27 +35,28 @@ body{
     width: 100%;
 }
 .but{
-height: 35px;    
-width: 30%;
-background-color: transparent;
-color: black;
-font-size: 20px;
-font-weight: bold;
-border-width: 5px;
-border-color: black;
-background: linear-gradient(45deg, #844646, #56477ed4, #5fb185, #8a933f,  #5fb185, #56477ed4, #844646);
-background-size: 1000% 100%;
-animation: gradient 10s ease infinite;
-cursor: pointer;
+    height: 35px;    
+    width: 30%;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 5px;
+    border-color: black;
+    background: linear-gradient(45deg, #844646, #56477ed4, #5fb185, #8a933f,  #5fb185, #56477ed4, #844646);
+    background-size: 1000% 100%;
+    animation: gradient 10s ease infinite;
+    cursor: pointer;
 }
 h1{
-    font-size: 500%;
+    font-size: 470%;
     margin: 0%;
     height: 100%;
 }
 .profile{
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
+    position:-ms-page;
 }
 h2{
     font-size: 300%;
@@ -66,7 +65,8 @@ h2{
 .about{
     font-size: larger;
     margin-top: 0%;
-    width: 155%;
+    line-height: 3rem;
+    width: 90%;
 }
 .social{
     display: flex;
@@ -172,22 +172,14 @@ textarea{
     justify-content: center;
 }
 
-@media (orientation: landscape) and (min-width: 50rem){
-    .profile{
-        width: 40%;
-        height: 40%;
-    }
-    .about{
-        width: 100%;
-    }
-    .buttons{
-        width: 100%;
-    }
-    .but{        
-        width: 170px;
-    }
+@media (orientation: landscape) and (min-width:59rem){
+
     h4{
         font-size: 150%;
+    }
+    .profile{
+        width: 30%;
+        height: 30%;
     }
     form{
         width: 42rem;
