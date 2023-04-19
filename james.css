@@ -184,17 +184,20 @@ textarea{
 }
 .bottom{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .info{
     background-color: rgb(252, 205, 162);
-    margin-left: 20%;
-    margin-top: 2rem;
     font-size: xx-large;
-    height: fit-content;
-    width: fit-content;
-    padding: 1rem;
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 22px;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .limg2{
@@ -220,5 +223,11 @@ textarea{
     }
     textarea{
         width: 100%;
+    }
+    .bottom{
+        flex-direction: row;
+    }
+    .info{
+        padding: 1rem;
     }
 }
